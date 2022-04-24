@@ -22,6 +22,7 @@ class SingleLinkedList {
         }
     }
 
+
     public static void append() {
         Scanner sc = new Scanner(System.in);
         if (tail != null) {

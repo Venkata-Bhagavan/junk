@@ -16,6 +16,7 @@ public class InsertionSort {
     }
 }
 
+
 class InsertionSortExample {
     public static void main(String[] a) {
         //InsertionSort id = new InsertionSort();

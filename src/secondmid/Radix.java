@@ -12,7 +12,6 @@ class Radix {
         return mx;
     }
 
-
     static void countSort(int[] a, int n, int exp) {
         int[] output = new int[n];
         int i;
