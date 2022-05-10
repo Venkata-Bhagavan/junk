@@ -13,11 +13,11 @@ int main() {
   int i, n;
   int towtwtime = 0, totttime = 0;
   printf("\n fcfs scheduling...\n");
-  printf("enter the no of process");
+  printf("enter the no of process : ");
   scanf("%d", & n);
   for (i = 0; i < n; i++) {
-    p[i].pid = 1;
-    printf("\n burst time of the process");
+    p[i].pid = i+1;
+    printf("\n burst time of the process [%d] : ", i+1);
     scanf("%d", & p[i].btime);
   }
 
@@ -32,8 +32,9 @@ int main() {
   }
   for (i = 0; i < n; i++) {
     {
-      printf("\n waiting time for process");
-      printf("\n turn around time for process");
+      printf("\n for process %d :", p[i].pid);
+      printf("\n waiting time  %d :", p[i].wtime);
+      printf("\n turn around time  %d :", p[i].ttime);
       printf("\n");
     }
   }
