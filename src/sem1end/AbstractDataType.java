@@ -1,3 +1,5 @@
+package sem1end;
+
 import java.util.Scanner;
 
 public class AbstractDataType {

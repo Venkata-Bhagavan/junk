@@ -1,4 +1,4 @@
-package secondmid;
+package sem1end;
 
 
 import java.util.Scanner;
